@@ -1,10 +1,10 @@
 'use client';
  
-import { useRouter } from 'next/navigation'
+
 import Link from 'next/link'
  
 export default function Page() {
-  const router = useRouter()
+
     return (
         <header className="bg-gray-800 w-5xl lg:w-full">
             <div className="h-50 justify-between items-center px-4 sm:px-4 sm:w-5xl lg:px-6 pt-8">
