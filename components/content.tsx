@@ -78,7 +78,7 @@ export default function Content() {
     return (
         <div className="bg-white w-5xl flex flex-col max-w-8xl h-fit mx-auto rounded-xl items-center justify-center px-4 sm:px-6 lg:px-8 pt-8 -mt-25">
             <h1 className="text-center p-5 font-extrabold text-black lg:text-4xl text-6xl">Blog Highlights</h1>
-            <div className='grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-6 p-5'>
+            <div className='grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-4 p-5'>
                 {posts.map((post) => (
                     <Card key={post.id} post={post} />
                 ))}

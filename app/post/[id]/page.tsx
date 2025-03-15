@@ -92,7 +92,7 @@ export default function Post() {
             <div className="bg-white w-5xl flex flex-col max-w-8xl h-fit mx-auto rounded-xl items-center justify-center px-4 sm:px-6 lg:px-8 pt-8 -mt-25 pb-10">
                 <h1 className="text-4xl font-bold text-black mb-4">{post.name}</h1>
                 <img src={post.imageUrl} alt={post.name} className="w-fit h-72 object-cover rounded-2xl mb-4" />
-                <div className="mx-8 mt-4 text-black text-xl">
+                <div className="mx-8 mt-4 text-black lg:text-2xl text-4xl">
                     {post.content.split('\n').map((line, index) => (
                         <p key={index} className="mb-4">{line}</p>
                     ))}
