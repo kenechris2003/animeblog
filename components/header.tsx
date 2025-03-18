@@ -8,7 +8,7 @@ export default function Page() {
     return (
         <header className="bg-gray-800 w-5xl lg:w-full">
             <div className="h-50 justify-between items-center px-4 sm:px-4 sm:w-5xl lg:px-6 pt-8">
-                <nav className="mr-40 flex justify-between items-center w-4xl px-1.5 sm:ml-20 md:px-2 md:ml-20 lg:px-3">
+                <nav className="mr-40 flex justify-between items-center w-4xl px-1.5 ml-40 sm:ml-20 md:px-2 md:ml-20 lg:px-3 lg:ml-20">
                     <div className="flex items-center ml-20">
                         <Link href={"/"}> <img src="/logo.png" alt="logo" className="h-16 w-80 lg:h-8 lg:w-auto" /> </Link>
                         <ul className="hidden md:flex ml-20">
